@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.code {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: cornflowerblue;
+}
+table {
+    border: red 2px solid;
+    width: 600px;
+    margin: 0 auto;
+}
+thead {
+  background-color: gold;
+}
+td {
+  border-top: 1px solid red;
+}
