@@ -7,49 +7,93 @@
   </head>
   <body>
     <main>
-      <h1>
-        Reference Table
-      </h1>
-      <h2>
-        Tags
-      </h2>
+      <h1>Web Devlelopment Cheat-Sheets</h1>
+      <h2>Table Tags & Attributes</h2>
       <table>
+        <caption>Reference Sheet for Table HTML Tags and Attributes</caption>
+        <colgroup>
+          <col />
+          <col style="border-right: 2px solid black; border-left: 2px solid black;">
+          <col />
+        </colgroup>
         <thead>
           <tr>
-            <th>
-              Tag
-            </th>
-            <th>
-              Name
-            </th>
-            <th>
-              Description
-            </th>
+            <th scope="colgroup" colspan="3" class="table-main">Tags</tr>
+          </tr>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
-              <span class="code">&lt;tag&gt;</span>
-            </td>
-            <td>
-              boobies
-            </td>
-            <td>
-              yeah boi
-            </td>
+            <td scope="row"><span class="code">&lt;table&gt;</span></td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables.</td>
           </tr>
           <tr>
-            <td>
-              <span class="code">&lt;tag&gt;</span>
-            </td>
-            <td>
-              boobies
-            </td>
-            <td>
-              yeah boi
-            </td>            
+            <td scope="row"><span class="code">&lt;thead&gt;</span></td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table.</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;tbody&gt;</span></td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data.</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;th&gt;</span></td>
+            <td>Table Header</td>
+            <td>Defines a cell as the header of a group of table cells</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;tr&gt;</span></td>
+            <td>Table Row</td>
+            <td>The table row container.</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;td&gt;</span></td>
+            <td>Table Data</td>
+            <td>The table row container.</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;colgroup&gt;</span></td>
+            <td>Column group</td>
+            <td>Defines a group of columns within a table</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;col&gt;</span></td>
+            <td>Columns</td>
+            <td>Defines one or more columns in a column group represented by its parent column group</td>            
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">&lt;tfoot&gt;</span></td>
+            <td>Table Footer</td>
+            <td>The set of rows defining the footer in a table.</td>            
           </tr>
         </tbody>
+        <thead>
+          <tr>
+            <th scope="colgroup" colspan="3" class="table-main">Table Atrubutes</th>
+          </tr>
+          <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row"><span class="code">colspan</span></th>
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span.</td>
+          </tr>
+          <tr>
+            <td scope="row"><span class="code">rowspan</span></td>
+            <td>Row Span</td>
+            <td>Defines how many rows a td element should span.</td>            
+          </tr>
       </table>
     </main>
   </body>
