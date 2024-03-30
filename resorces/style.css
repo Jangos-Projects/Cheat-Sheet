@@ -34,11 +34,9 @@ thead {
 td, th {
   border: 1px solid  rgb(10, 100, 141);
 }
-/*
-.tags, .atrubutes {
-  text-align: center;
-}
-*/
+
+/*code to align text center in the first column */ 
+
 td:nth-of-type(3n+1) { 
   text-align: center; 
 }
